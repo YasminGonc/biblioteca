@@ -6,11 +6,16 @@
 }
 body{
     height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: linear-gradient(135deg, #99d98c, #76c893, #52b69a);
+}
+form{
+    width: 75vmin;
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 40px 0
 }
 #input{
     padding-left: 0.5rem;
@@ -29,7 +34,7 @@ ul{
     list-style: none;
 }
 .list{
-    width: 100%;
+    width: 20vw;
     background-color: white;
     border-radius: 0 0 5px 5px;
 }
